@@ -7,7 +7,7 @@
     <title>03-jquery的选择器</title>
     <script src="js/jquery-1.12.4.min.js"></script>
     <script>  
-        $(document).ready(function () {
+        $(document).ready(function() {
             
             // 1.ID 选择器
             var $div = $("#div1");
@@ -26,13 +26,11 @@
             $li.css({"color":"red"});
 
             // 用length 判断元素是否存在 0代表不存在
-            //大于零 代表存在
+            // 大于零 代表存在
             var $abc = $("#best");
-
+            alert('#abc的length=' + $abc.length);
             alert($span.length);
-
-        })  
-    
+        })
     </script>
 </head>
 <body>

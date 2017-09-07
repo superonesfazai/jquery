@@ -14,15 +14,13 @@
     </style>
     <script src="js/jquery-1.12.4.min.js"></script>
     <script>
-        $(function () {
-            $(".box").click(function () {
-                
+        $(function() {
+            $(".box").click(function() {
                 alert("绑定click事件");
+//                $(this).css({"background-color":"green"});
+            });
 
-                // $(this).css({"background-color":"green"});
-            })
-
-            $(".list li").click(function () {
+            $(".list li").click(function() {
                 $(this).css({"color":"red"});
                 alert($(this).index());
             })
@@ -39,6 +37,5 @@
         <li>4</li>
         <li>5</li>
     </ul>
-    
 </body>
 </html>

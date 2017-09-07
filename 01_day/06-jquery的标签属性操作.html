@@ -8,22 +8,19 @@
     <script src="js/jquery-1.12.4.min.js"></script>
 
     <script>
-        
         $(function () {
-            
             //1.读取属性
-         // alert($(".box").css("color"));
+            alert($(".box").css("color"));
 
-          //2.设置属性 
-          $(".box").css({"width":"200px"})
+            //2.设置属性
+            $(".box").css({"width":"200px"});
 
-          //3.操作样式类名
-          $(".box").addClass("active");
-        //   $(".box").removeClass("active");
+            //3.操作样式类名
+            $(".box").addClass("active");
+            // $(".box").removeClass("active");
 
             //如果有就删除 没有就添加上
-          $(".box").toggleClass("active");
-
+            $(".box").toggleClass("active");
         })
     </script>
 
@@ -38,8 +35,6 @@
     </style>
 </head>
 <body>
-
     <div class="box">div的标签</div>
-    
 </body>
 </html>

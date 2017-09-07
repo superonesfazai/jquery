@@ -17,7 +17,7 @@
             //1.读取属性
             var iValinput = oInput.value;
             var iValBtn = oBtn.value;
-            // alert(iValinput + iValBtn);
+            console.log(iValinput + iValBtn);
             //2.修改属性
             // alert(oInput.className);
             oInput.className = "two";
@@ -26,10 +26,8 @@
             // oAnchor.style.iValinput = iValBtn;//此写法无效
             // oAnchor.style[iValinput] = iValBtn;
             
-           
             oInput.style.color = "green";
-            oBtn.onclick = function () {
-                
+            oBtn.onclick = function() {
                 alert(oInput.style.color);
             }
         }

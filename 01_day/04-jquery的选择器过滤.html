@@ -8,21 +8,20 @@
     <script src="js/jquery-1.12.4.min.js"></script>
 
     <script>
+        $(document).ready(function() {
+            // 1. 选择包含p元素的 div
+            var iNumber1 = $("div").has("p").length;
+            alert(iNumber1);
 
-        $(document).ready(function () {
-            
-            // 1.选择包含p元素的 div
-        //   var iNumber =   $("div").has("p").length;
-
-            //2.not 除了这个class属性的div;其他元素
-            //选择 class 属性 不是.box 的其他div 元素
-            var iNumber =   $("div").not(".box").length;
+            // 2. not 除了这个class属性的div;其他元素
+            // 选择 class 属性 不是.box 的其他div 元素
+            var iNumber2 = $("div").not(".box").length;
+            alert('not class="box"' + iNumber2);
 
             //3.选择 第3个 div 标签
-            iNumber =   $("div").eq(2).length;
-            $("div").eq(2).css({"color":"red"});
-            alert(iNumber);
-
+            var iNumber3 = $("div").eq(2).length;
+            $("div").eq(2).css({"color": "red"});
+            alert(iNumber3);
         })
     
     </script>

@@ -11,67 +11,54 @@
             width: 500px;
             height: 350px;
             margin: 50px auto 0;
-
          }
 
          .tap_btns{
              height: 50px;
          }
-         .tap_btns input{
 
+         .tap_btns input{
             width: 100px;
             height: 50px;
             background-color: lightgray;
-            border: 0px;
-            outline: none;
+            border: 0;
+            outline: none;  /* 按钮外框线*/
          }
+
          .tap_btns .active{
              background-color: gold;
          }
 
          .tab_cons{
-            
              height: 300px;
              background-color: gold;
          }
-         .tab_cons div{
 
+         .tab_cons div{
              height: 300px;
              line-height: 300px;
              text-align: center;
              display: none;
              font-size: 30px;
-    
          }
 
          .tab_cons .current{
-
              display: block;
          }
      </style>
-
-     <script>
-
-        $(function () {
-    
-            //  1.监听按钮的点击,先切换按钮
+    <script>
+        $(function() {
+            // 1.监听按钮的点击,先切换按钮
             var $btns = $(".tap_btns input");
             var $divs = $(".tab_cons div");
             $btns.click(function() {
-
-              var $currentBtn =  $(this).addClass("active").siblings().removeClass("active");
+                var $currentBtn = $(this).addClass("active").siblings().removeClass("active");
               
-            // 2.根据按钮的切换,切换div
-            $divs.eq($(this).index()).addClass("current").siblings().removeClass("current");
-
+                // 2.根据按钮的切换,切换div
+                $divs.eq($(this).index()).addClass("current").siblings().removeClass("current");
             })
-
-          
-            
         })
-
-     
-     </script>
+    </script>
 </head>
 <body>
 <div class="tap_con">
