@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03-cookie的使用</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+
+
+        $(function(){
+            var sVal = $.cookie('sIsread');
+       
+            if(sVal == undefined)
+            {
+                $('.pop_main').show();
+            }
+
+            $('.confirm').click(function(){
+                 $('.pop_main').hide();
+                 $.cookie('sIsread','ok',{expires:7,path:'/'});
+            })   
+          
+
+        })
+    </script>
+</head>
+<body>
+     <h1>页面的内容</h1>
+    <div class="pop_main">
+        <div class="pop_con">
+            <div class="pop_title">
+                <h3>系统提示</h3>
+                <a href="#">×</a>
+            </div>
+            <div class="pop_detail">
+                <p class="pop_text">亲！近期有优惠活动，请强力关注！！</p>
+            </div>
+            <div class="pop_footer">               
+                <input type="button" value="朕知道了！" class="confirm">                
+            </div>
+        </div>
+        <div class="mask"></div>
+    </div>
+    
+</body>
+</html>

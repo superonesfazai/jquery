@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>09-jquery的循环</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+            $(function () {
+                
+                var $list = $(".list");
+                //$list.css({"color":"red"});
+
+                //单独设置每一个
+                var $lis = $(".list li");
+                $lis.each(function (i,a) {
+                    // alert(i);//角标
+                    alert(a);//li标签
+                    $(this).css({"color":"red"});
+                })
+
+            })
+    </script>
+</head>
+<body>
+
+    <ul class="list">
+        <li>文字1</li>
+        <li>文字2</li>
+        <li>文字3</li>
+        <li>文字4</li>
+        <li>文字5</li>
+        <li>文字6</li>
+    </ul>
+    
+</body>
+</html>

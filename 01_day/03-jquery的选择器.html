@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03-jquery的选择器</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>  
+        $(document).ready(function () {
+            
+            // 1.ID 选择器
+            var $div = $("#div1");
+        
+            // 2.类选择器
+            var $p = $(".para");
+        
+            // 3.标签选择器
+            var $a = $("a");
+            
+            // 4.层级选择器
+            var $span = $("h1 span");
+           
+            // 5.属性选择器
+            var $li = $("li[class='li']");
+            $li.css({"color":"red"});
+
+            // 用length 判断元素是否存在 0代表不存在
+            //大于零 代表存在
+            var $abc = $("#best");
+
+            alert($span.length);
+
+        })  
+    
+    </script>
+</head>
+<body>
+    <div id="div1">ID选择器</div>
+    <p class="para">类选择器</p>
+    <a href="">标签选择器</a>
+
+    <h1> <span>层级选择器</span> </h1>
+
+    <ul>
+        <li class="li">1</li>
+        <li class="li">2</li>
+        <li class="li">3</li>
+        <li>4</li>
+    </ul>
+
+</body>
+</html>

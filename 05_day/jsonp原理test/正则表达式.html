@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>正则表达式</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            
+            // 1.正则的书写
+            var reg1 = /\d+/;
+            //纯数字
+            var reg2 = /^\d+$/;
+            var reg3 = new RegExp(/^\d+$/);
+
+            var istr = "123acd";
+            var istr1 = "acd123";
+            var istr3 = "123";
+            alert(reg3.test(istr1));
+
+        })
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

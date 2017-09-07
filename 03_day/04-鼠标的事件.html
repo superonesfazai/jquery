@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>04-鼠标的事件</title>
+    <style>
+        .box {
+
+            width: 200px;
+            height: 200px;
+            background: red;
+            overflow: hidden;
+        }
+        .son {
+            width: 50px;
+            height: 50px;
+            background: green;
+            margin: 50px;
+        }
+    </style>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+
+            var $x = 0;
+           
+        //    $(".box").mousemove(function () {//悬浮
+        //        $x+=1;
+        //      $(".son").html($x);
+        //    })
+        //    $(".box").mouseout(function () {//悬浮
+               
+        //        alert("移开");
+        //    })
+
+
+       $(".box").mouseenter(function () {//悬浮
+               $x+=1;
+             $(".son").html($x);
+           })
+        //    $(".box").mouseleave(function () {//悬浮
+               
+        //        alert("移开");
+        //    })
+
+        //    $(".box").hover(function () {
+               
+             //  alert("触发");
+           //})
+        })
+    </script>
+</head>
+<body>
+    <div class="box">
+        <div class="son"></div>
+    </div>
+</body>
+</html>

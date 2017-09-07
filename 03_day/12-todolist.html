@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>todolist</title>
+	<style type="text/css">
+		.list_con{
+			width:600px;
+			margin:50px auto 0;
+		}
+		.inputtxt{
+			width:550px;
+			height:30px;
+			border:1px solid #ccc;
+			padding:0px;
+			text-indent:10px;			
+		}
+		.inputbtn{
+			width:40px;
+			height:32px;
+			padding:0px;
+			border:1px solid #ccc;
+		}
+		.list{
+			margin:0;
+			padding:0;
+			list-style:none;
+			margin-top:20px;
+		}
+		.list li{
+			height:40px;
+			line-height:40px;
+			border-bottom:1px solid #ccc;
+		}
+
+		.list li span{
+			float:left;
+		}
+
+		.list li a{
+			float:right;
+			text-decoration:none;
+			margin:0 10px;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+            // //1.增加内容
+            // $("#btn1").click(function () {
+
+            //     var $str = $("#txt1").val();
+
+            //         // 判断 没有弹出框
+            //         if($str == ""){
+
+            //             alert("请输入内容");
+            //             return;
+            //         }
+
+            //         // 每次都清空内容
+            //         $("#txt1").val("");
+
+            //     var $li =  $('<li><span>'+$str+'</span><a href="javascript:;" class="up"> ↑ </a><a href="javascript:;" class="down"> ↓ </a><a href="javascript:;" class="del">删除</a>');
+              
+            //     $li.appendTo($("#list"));
+            // })
+
+
+            // //2.删除和排序 上下
+
+            // $("#list").delegate('a',"click",function () {
+                
+            //     //判断三个a标签的类型
+            //     var sHandler = $(this).prop("class");
+
+            //     if (sHandler == "del") {
+                    
+            //         $(this).parent().remove();
+            //     }
+            //     if (sHandler == 'up') {//向上移动
+
+            //         var $first = $(this).parent().prev();
+
+            //         if ($first.length==0) {
+                        
+            //             alert("顶住脑袋了");
+            //             return;
+            //         }
+
+            //         $(this).parent().insertBefore($(this).parent().prev());
+            //     }
+
+            //      if (sHandler == 'down') {//向下移动
+
+            //         var $first = $(this).parent().next();
+
+            //         if ($first.length==0) {
+                        
+            //             alert("到底了");
+            //             return;
+            //         }
+
+            //         $(this).parent().insertAfter($(this).parent().next());
+            //     }
+
+            // })
+
+				//1.增加内容
+				$("#btn1").click(function () {
+					//1.1判断内容是否为空
+					var $txt = $("#txt1").val();
+					if ($txt == "") {
+						alert('请输入内容');
+						return;
+					}
+
+					//1.2增加节点
+					var $newli = $('<li><span>'+$txt+'</span><a href="javascript:;" class="up"> ↑ </a><a href="javascript:;" class="down"> ↓ </a><a href="javascript:;" class="del">删除</a></li>');
+					$newli.appendTo($(".list"));
+
+					//1.3清空
+					$("#txt1").val("");
+				})
+				//2.修改,删除 排序
+				$(".list").delegate("a","click",function () {
+					
+					//判断 到底是哪个a标签
+					var $handler = $(this).prop("class");
+
+					if ($handler == "del") {//删除
+						
+						$(this).parent().remove();
+					}
+
+					if ($handler == "up") {//上
+						
+						// //1.当前元素
+						// var $current = $(this).parent();
+
+						// //2.上面的元素
+						// var $up = $(this).parent().prev();
+
+						// //3.交换位置
+						// $current.insertBefore($up);
+
+						//判断是否到头
+						if ($(this).parent().prev().length == 0) {
+							
+							alert("顶住脑袋了");
+							return;
+						}
+
+						//链写
+						$(this).parent().insertBefore($(this).parent().prev());
+					
+					}
+
+					if ($handler == "down") {//下
+						
+						//判断是否到头
+						if ($(this).parent().next().length == 0) {
+							
+							alert("到底了");
+							return;
+						}
+
+						
+						$(this).parent().insertAfter($(this).parent().next());
+		
+					}
+
+					
+
+				})
+			
+
+
+
+		})
+
+	</script>	
+</head>
+<body>
+
+	<div class="list_con">
+	<h2>To do list</h2>
+		<input type="text" name="" id="txt1" class="inputtxt">
+		<input type="button" name="" value="增加" id="btn1" class="inputbtn">
+		
+		<ul id="list" class="list">
+
+			<li><span>学习html</span><a href="javascript:;" class="up"> ↑ </a><a href="javascript:;" class="down"> ↓ </a><a href="javascript:;" class="del">删除</a></li>
+			<li><span>学习css</span><a href="javascript:;" class="up"> ↑ </a><a href="javascript:;" class="down"> ↓ </a><a href="javascript:;" class="del">删除</a></li>
+			<li><span>学习javascript</span><a href="javascript:;" class="up"> ↑ </a><a href="javascript:;" class="down"> ↓ </a><a href="javascript:;" class="del">删除</a></li>
+
+		</ul>
+
+	</div>
+</body>
+</html>

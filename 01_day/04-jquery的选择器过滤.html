@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>04-jquery的选择器过滤</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            
+            // 1.选择包含p元素的 div
+        //   var iNumber =   $("div").has("p").length;
+
+            //2.not 除了这个class属性的div;其他元素
+            //选择 class 属性 不是.box 的其他div 元素
+            var iNumber =   $("div").not(".box").length;
+
+            //3.选择 第3个 div 标签
+            iNumber =   $("div").eq(2).length;
+            $("div").eq(2).css({"color":"red"});
+            alert(iNumber);
+
+        })
+    
+    </script>
+</head>
+<body>
+
+    <div class="box">
+        <p>段落标签</p>
+    </div>
+
+    <div class="box1">1</div>
+
+    <div class="box2">2</div>
+
+    <div class="box3">3</div>
+    
+</body>
+</html>

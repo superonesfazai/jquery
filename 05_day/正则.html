@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>正则</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            
+            var sStr = "Abcd123";
+            //1.第一种写法
+            var reg1 = new RegExp("a",'i');
+
+            //2.第二种写法
+            var reg2 = /a/i;
+
+
+            //3.匹配纯数字
+            var sNumber = "123";
+            var reg3 = /\d+/;//只要有数字就可以
+
+            var reg4 = /^\d+$/;//纯数字
+
+            //alert(reg4.test(sNumber));
+
+            //4.正则替换  , global g
+            var sStr2 = "abcdefgbcfgfhtc";
+
+            var sNew =  sStr2.replace(/c+/g,"#");
+
+            alert(sNew);
+
+
+
+        })
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

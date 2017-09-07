@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>05-购物车的动画</title>
+    <style>
+        #btn{
+            width: 200px;
+            height: 50px;
+            background: green;
+            color: white;
+            font-size: 20px;
+
+            position: absolute;
+            top:300px;
+            left: 500px;
+        }
+        #number{
+
+            width: 100px;
+            height: 100px;
+            border: 1px solid green;
+            text-align: center;
+            line-height: 100px;
+
+            position: absolute;
+            right: 100px;
+            top: 100px;   
+        }
+        #number span{
+            color: red;
+        }
+
+        .redPoint{
+            width: 20px;
+            height: 20px;
+            background: red;
+            border-radius: 50%;
+            display: none;
+
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+    </style>
+     <script src="js/jquery-1.12.4.min.js"></script>
+     <script>
+        $(function () {
+            var $Btn = $('#btn');
+            var $Number = $('#number');
+            var $Zero = $('#zero');
+            var $red = $(".redPoint");
+
+            var $BtnOffset = $Btn.offset();
+            var $NumberOffset = $Number.offset();
+
+
+            // 1.点击按钮,小红点出现
+            var $index = 0;
+            $Btn.click(function () {
+                //1.1小红出现的位置: 按钮的绝对位置 加上一个固定距离
+                
+                $red.css({"left":$BtnOffset.left+15,"top":$BtnOffset.top+15});
+                $red.show();
+
+                //1.2计算动画的终点位置
+              
+                $red.animate({
+                    "left":($NumberOffset.left+$Number.outerWidth()*0.5),
+                    "top":($NumberOffset.top+$Number.outerHeight()*0.5)
+                   
+                 },1000,"swing",function () {
+                        //动画结束之后要做的事情
+                        $red.hide();
+                        $index+=1;
+
+                        //jquery修改标签包裹的内容
+                        $Zero.html($index);
+                 });
+                
+            })
+            // 2.实现动画
+            // 3.改变数字
+
+
+
+        })
+    </script>
+</head>
+<body>
+
+    <!-- 1.搭建界面  按钮 + div的数字 + 小红点-->
+    <input type="button" value="加入购物车" id="btn">
+    <div id="number">
+        购物车<span id="zero">0</span>
+    </div>
+
+    <div class="redPoint"></div>
+    
+</body>
+</html>

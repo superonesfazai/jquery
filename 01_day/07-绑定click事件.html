@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>07-绑定click事件</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            $(".box").click(function () {
+                
+                alert("绑定click事件");
+
+                // $(this).css({"background-color":"green"});
+            })
+
+            $(".list li").click(function () {
+                $(this).css({"color":"red"});
+                alert($(this).index());
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="box"></div>
+
+    <ul class="list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    
+</body>
+</html>

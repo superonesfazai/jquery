@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>09-天天水果节</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+    <!-- 1.导航部分 -->
+    <!-- 1.1先去网页找 组件 导航条 演示 -->
+    <!-- 1.2在根据需求来写 -->
+        <!-- //导航条 defalut 默认的白底灰字 inverse 黑底白字 -->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+
+            <!-- 导航条分三部分 -->
+            <!-- 1.导航条的头部 -->
+            <div class="navbar-header">
+
+                <!-- 折叠按钮 -->
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#mymenu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                <!-- 包含两部分 一个 图标 一个文字 -->
+                <a href="#" class="navbar-brand"> <img src="images/logo.png" alt=""> </a>
+
+            </div>
+           
+            <!-- 4.收缩的按钮 -->
+            <div class="collapse navbar-collapse" id="mymenu">
+                    <!-- 2.导航条的内容列表 -->
+                <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">首页</a></li>
+                        <li><a href="#">推荐商品</a></li>
+                        <li><a href="#">手机生鲜</a></li>
+                        <li><a href="#">抽奖</a></li>
+                </ul>   
+                <!-- 3.搜索框 表单提交 -->
+                <form class="navbar-form navbar-right">
+                    <!-- 3.1需要使用 formgroup -->
+                    <div class="form-group">
+                        <!-- 3.2里面的控件都是form-control -->
+                        <!-- <input type="text" class="form-control">
+                        <input type="submit" value="GO" class="btn btn-default"> -->
+                            <!-- 以上写法控件分离 -->
+
+                            <!-- 需要使用表单控件组 -->
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default "> <span class="glyphicon glyphicon-heart"></span>     </button>
+                                </span>
+
+                            </div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <!-- 2.banner部分 -->
+    <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <!-- 2.1文字介绍 -->
+                    <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+                        <img class="bannerleft-pic img-responsive"  src="images/banner_title.png" alt="文字图片">
+                        <h3 class="banner-title">水果节介绍</h3>
+                        <p class="banner-content">天天生鲜将在北京、天津、上海、南京、苏州、杭州、成都、武汉8座核心城市同期推出北京水果专场，借助天天生鲜产地端到用户端的渠道，果品流转效率得以大大提高。依托天天生鲜的渠道优势，首届果节做到了高质低价。</p>
+                    </div>
+                    <!-- 2.2图片介绍 -->
+                    <div class="col-lg-4 col-lg-offset-1 col-md-5 col-md-offset-1 hidden-sm hidden-xs">
+                            <img src="images/basket.png" alt="篮子图片">
+                    </div>
+
+                </div>
+              
+            </div>
+    </div>
+    <!-- 3.中间产品介绍部分 -->
+    <div class="container">
+        <div class="row prodcttitle">活动图片</div>
+        <div class="row">
+            <p class="active-content">天天生鲜产地直采的果品甚至可以追溯到种植者和生产的地块儿。确定具体采摘地块儿后，在适合的时间将水果采摘下来后，直接在地头包装成箱，根据订单分装运到各个分仓，然后由配送员送到用户手中。以下是本次活动相关的图片</p>
+        </div>
+    </div>
+    <div class="container">
+
+         <!-- 下面的图片介绍 -->
+         <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6"> 
+                    <div class="thumbnail">
+                            <img  class="img-responsive" src="images/active01.jpg" alt="活动图1">
+                            <h5>活动采摘图片</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6"> 
+                        <div class="thumbnail">
+                                <img  class="img-responsive" src="images/active02.jpg" alt="活动图1">
+                                <h5>活动采摘图片</h5>
+        
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6"> 
+                            <div class="thumbnail">
+                                    <img class="img-responsive" src="images/active03.jpg" alt="活动图1">
+                                    <h5>活动采摘图片</h5>
+            
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6"> 
+                                <div class="thumbnail">
+                                        <img  class="img-responsive" src="images/active04.jpg" alt="活动图1">
+                                        <h5>活动采摘图片</h5>
+                
+                                </div>
+                            </div>
+                       
+               
+            </div> 
+    </div>
+    <!-- 4.详情介绍 -->
+    <div class="container product">
+        <div class="row">
+            推荐商品
+        </div>
+    </div>
+
+    <div class="container goods-list">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="thumbnail">
+                    <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                    <h4>草莓</h4>
+                    <p>¥ <em>25.00</em>/500g</p>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                    <div class="thumbnail">
+                        <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                        <h4>草莓</h4>
+                        <p>¥ <em>25.00</em>/500g</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                        <div class="thumbnail">
+                            <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                            <h4>草莓</h4>
+                            <p>¥ <em>25.00</em>/500g</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                            <div class="thumbnail">
+                                <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                                <h4>草莓</h4>
+                                <p>¥ <em>25.00</em>/500g</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                                <div class="thumbnail">
+                                    <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                                    <h4>草莓</h4>
+                                    <p>¥ <em>25.00</em>/500g</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                    <div class="thumbnail">
+                                        <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                                        <h4>草莓</h4>
+                                        <p>¥ <em>25.00</em>/500g</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                        <div class="thumbnail">
+                                            <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                                            <h4>草莓</h4>
+                                            <p>¥ <em>25.00</em>/500g</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2">
+                                            <div class="thumbnail">
+                                                <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                                                <h4>草莓</h4>
+                                                <p>¥ <em>25.00</em>/500g</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2">
+                                                <div class="thumbnail">
+                                                    <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                                                    <h4>草莓</h4>
+                                                    <p>¥ <em>25.00</em>/500g</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                    <div class="thumbnail">
+                                                        <a href=""> <img class="img-responsive" src="images/goods.jpg" alt=""> </a>
+                                                        <h4>草莓</h4>
+                                                        <p>¥ <em>25.00</em>/500g</p>
+                                                    </div>
+                                                </div>
+
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script>
+        $(function(){
+           
+            //1.获取本地存储的cookies 
+            //var sCookie = $.cookie("sIsread");
+                //默认没有值的时候 undifined
+
+            //2.设置cookie的值
+                        //key   值        过期天数   路径
+            //$.cookie("sIsread","readed",{expires:7,path:'/'});
+            //alert(sCookie);
+          
+            if($.cookie("sIsread") == undefined){//第一次访问
+
+                //1.显示提示框
+                $(".pop_main").show();
+               
+            }
+
+            //2.点击按钮 设置cookie
+            $(".confirm").click(function () {
+                
+                //设置cookie
+                $.cookie("sIsread","readed",{expries:7,path:"/"});
+
+                //隐藏提示框
+                  $(".pop_main").hide();
+            })
+        })
+    
+    </script>
+</head>
+<body>
+    <h1>页面的内容</h1>
+    <div class="pop_main">
+        <div class="pop_con">
+            <div class="pop_title">
+                <h3>系统提示</h3>
+                <a href="#">×</a>
+            </div>
+            <div class="pop_detail">
+                <p class="pop_text">亲！近期有优惠活动，请强力关注！！</p>
+            </div>
+            <div class="pop_footer">               
+                <input type="button" value="朕知道了！" class="confirm">                
+            </div>
+        </div>
+        <div class="mask"></div>
+    </div>
+</body>
+</html>

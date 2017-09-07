@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <script type="text/javascript">
+        window.onload = function(){
+            var oDay = document.getElementById('day');
+            var oHour = document.getElementById('hour');
+            var oMinute = document.getElementById('minute');
+            var oSecond = document.getElementById('second');
+
+            function timeleft(){
+                var now = new Date();
+                var future = new Date(2017,6,27,24,0,0);
+                var lefts = parseInt((future-now)/1000);
+                var day = parseInt(lefts/86400);
+                var hour = parseInt(lefts%86400/3600);
+                var min = parseInt(lefts%86400%3600/60);
+                var sec = lefts%60;               
+                oDay.innerHTML = todou(day);
+                oHour.innerHTML = todou(hour);  
+                oMinute.innerHTML = todou(min); 
+                oSecond.innerHTML = todou(sec); 
+            }
+
+            timeleft();
+            setInterval(timeleft,1000); 
+
+
+             function todou(n){
+                if(n<10)
+                {
+                    return '0'+n;
+                }
+                else
+                {
+                    return n;
+                }
+            } 
+
+
+        }
+    </script>
+</head>
+<body>
+    <div class="time_left_bg">
+        <div class="showday" id="day">09</div>
+        <div class="showhour" id="hour">09</div>
+        <div class="showminute" id="minute">09</div>
+        <div class="showsecond" id="second">09</div>
+    </div>
+</body>
+</html>

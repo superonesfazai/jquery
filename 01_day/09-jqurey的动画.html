@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>09-jqurey的动画</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background: red;
+
+            position: absolute;
+            top: 100px;
+            left: 0px;
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            background: green;
+
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+
+        
+        $(function () {
+            $(".box").animate({"left":"1000px"},2000,"linear")
+            $(".box1").animate({"left":"1000px"},2000,"swing")
+            
+        })
+        
+    </script>
+</head>
+<body>
+
+    <div class="box"></div>
+    <div class="box1"></div>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>01-流体布局</title>
+    <style>
+        body{
+            margin: 0;
+        }
+       
+       .box div{
+           /* //1.第一种写法  百分比(不包含边框)*/
+            /* /width: 25%; */
+
+            /* 2.第二种写法, 计算cal() */
+            /* width: calc(25% - 4px); */
+
+            /* 3.box-sizing: */
+            width: 25%;
+            height: 50px;
+            background:red;
+            float: left;
+            border: 2px solid green;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+  <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>     
+  </div>        
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>01-jsonp的原理</title>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            $.ajax({
+                url:"http://localhost:8888/js/jsonp.js",
+                type:"get",
+                dataType:"jsonp",
+                jsonpCallback:"fnMyCallBack"
+            })
+            .done(function (dat) {
+                alert(dat.name);
+            })
+             .error(function () {
+                alert("失败");
+            })
+
+        })
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
