@@ -9,8 +9,13 @@
 
     <script>
         $(document).ready(function() {
-            // 1. 选择包含p元素的 div
+            // 1. 选择包含p元素的 div，切记选择的是包含p元素的div而不是p标签
             var iNumber1 = $("div").has("p").length;
+            /*
+            * 上面也等价于下面的写法, 推介使用该下面的写法
+            * :has(标签)
+            * */
+            $('div:has("p")').html('<i style="color: blue;">has(p)</i>');
             alert(iNumber1);
 
             // 2. not 除了这个class属性的div;其他元素
@@ -22,6 +27,26 @@
             var iNumber3 = $("div").eq(2).length;
             $("div").eq(2).css({"color": "red"});
             alert(iNumber3);
+
+            /*
+             *上面eq的用法等价于下面的用法，推介使用下面这种
+             * :eq(index)
+             **/
+            $('div:eq(2)').css({"font-size": "30px"});
+
+            /*
+            * :even 所有偶数元素
+            * :odd  所有奇数元素
+            * */
+            $('ul li:even').css({"color": "gold"});
+
+            /*
+            * :contains(text)   包含指定字符串的所有元素
+            * */
+            $('ul li:contains("11")').css({
+               "font-size": "30px",
+               "color": "green"
+            });
         })
     
     </script>
@@ -37,6 +62,12 @@
     <div class="box2">2</div>
 
     <div class="box3">3</div>
+
+    <ul>
+        <li>a11</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
     
 </body>
 </html>

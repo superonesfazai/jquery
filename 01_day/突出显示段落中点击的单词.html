@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>css demo</title>
+    <style>
+      p {
+        color: blue;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+    <p>
+        Once upon a time there was a man
+        who lived in a pizza parlor. This
+        man just loved pizza and ate it all
+        the time.  He went on to be the
+        happiest man in the world.  The end.
+    </p>
+
+    <script>
+        /*
+            jquery正则re的写法: /这里面是正则表达式的具体内容/
+        */
+        // return 一个单个单词的数组
+        var words = $('p').first().text().split(/\s+/);
+        console.log(words);
+
+        // 再次构造成字符串
+        var text = words.join("</span> <span>");
+        console.log(text);
+
+        $("p").first().html( "<span>" + text + "</span>" );
+        $("span").on("click", function() {
+            $(this).css("background-color", "yellow");
+        });
+    </script>
+
+</body>
+</html>

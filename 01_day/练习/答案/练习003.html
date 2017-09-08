@@ -16,8 +16,8 @@
         }
         .walk_show img{
             position:absolute;
-            left:0px;
-            top:0px;
+            left:0;
+            top:0;
         }
     </style>
     <script type="text/javascript">
@@ -28,14 +28,13 @@
             setInterval(function(){
                 nowleft -= 120;
 
-                if(nowleft<-840)
+                if(nowleft < -840)
                 {
                     nowleft=0;
                 }
 
                 oImg.style.left = nowleft + 'px';
-
-            },120)
+            }, 120)
 
         }
 

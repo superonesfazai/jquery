@@ -9,13 +9,26 @@
     <script>
         window.onload = function () {
             var oDiv = document.getElementById("div1");
-            alert(oDiv.style.fontSize);  
+            alert('js+' + oDiv.style.fontSize);
         };
 
+        // jquery执行速度更快
+        // ready(handler) -> return jQuery对象
         $(document).ready(function() {
             var oDiv = $("#div1");
             alert("jquery" + oDiv.css("font-size"));
-        })
+        });
+
+        //推介的callback方式
+        $(function () {
+            alert('----');
+        });
+
+        // $.noConflict()用于避免命名空间冲突，$快捷方式不再可用
+        jq2 = jQuery.noConflict();
+        jq2(function($) {
+          // Code using $ as usual goes here; the actual jQuery object is jq2
+        });
     </script>
 </head>
 <body>

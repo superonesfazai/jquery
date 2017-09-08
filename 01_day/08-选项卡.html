@@ -38,23 +38,27 @@
              height: 300px;
              line-height: 300px;
              text-align: center;
-             display: none;
+             display: none;     /*其它未被选中的div设置为none*/
              font-size: 30px;
          }
 
          .tab_cons .current{
-             display: block;
+             display: block;    /*当前的设置为块级元素*/
          }
      </style>
     <script>
+        /*
+        * 实际就是通过值监听一个按钮来通过对类名的操作来实现对同级元素的修改
+        * */
         $(function() {
             // 1.监听按钮的点击,先切换按钮
             var $btns = $(".tap_btns input");
             var $divs = $(".tab_cons div");
             $btns.click(function() {
+                // 1. 改变当前选中按钮的颜色, 同时取消未被选中按钮的颜色
                 var $currentBtn = $(this).addClass("active").siblings().removeClass("active");
               
-                // 2.根据按钮的切换,切换div
+                // 2. 根据按钮的切换,切换div
                 $divs.eq($(this).index()).addClass("current").siblings().removeClass("current");
             })
         })
