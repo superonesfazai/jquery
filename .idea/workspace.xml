@@ -11,16 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jquery-migrate-1.4.1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery-migrate-1.4.1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="jquery_ui_tut.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQuery官方_basic/jquery_ui_tut.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,12 +91,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02-层级菜单案例.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02-层级菜单案例.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_day/02-层级菜单案例.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery参考手册-选择器" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jquery参考手册-选择器">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -140,7 +143,6 @@
         <option value="$PROJECT_DIR$/01_day/09-jqurey的动画.html" />
         <option value="$PROJECT_DIR$/01_day/10-jquery连续动画.html" />
         <option value="$PROJECT_DIR$/01_day/08-选项卡.html" />
-        <option value="$PROJECT_DIR$/jquery参考手册-选择器" />
         <option value="$PROJECT_DIR$/01_day/03-jquery的选择器.html" />
         <option value="$PROJECT_DIR$/01_day/tmp.html" />
         <option value="$PROJECT_DIR$/01_day/07-绑定click事件.html" />
@@ -149,6 +151,7 @@
         <option value="$PROJECT_DIR$/jQuery官方_basic/jquerytut.html" />
         <option value="$PROJECT_DIR$/01_day/04-jquery的选择器过滤.html" />
         <option value="$PROJECT_DIR$/02_day/01-jquery的特殊效果.html" />
+        <option value="$PROJECT_DIR$/jquery参考手册-选择器" />
       </list>
     </option>
   </component>
@@ -574,17 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery参考手册-选择器">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.6/site-packages/notebook/static/components/codemirror/addon/fold/foldcode.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -736,6 +728,17 @@
         <state relative-caret-position="135">
           <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery参考手册-选择器">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
