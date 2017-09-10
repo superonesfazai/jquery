@@ -1,96 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/adv01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/adv02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/banner01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/banner02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/banner03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/banner04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/banner05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/banner06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/goods_pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/slide.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/slide02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/slide03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/images/slide04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片案例实现.mindnode/QuickLook/Preview.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片案例实现.mindnode/style.mindnodestyle/metadata.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片案例实现.mindnode/viewState.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/slide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片案例实现.mindnode/contents.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片案例实现.mindnode/style.mindnodestyle/contents.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery事件/滚动事件/滚动事件.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery常用案例/手风琴.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/images/timg_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/images/walking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/答案/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/答案/images/timg_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/答案/images/walking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/答案/练习001.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/答案/练习002.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/答案/练习003.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/练习001.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/练习002.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/练习002效果示例.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/练习003.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/01_day/练习/练习003效果示例.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/02_day/06-滚动事件.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/02_day/10-手风琴.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jquery-migrate-1.4.1.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/01-获取属性操作.html" afterPath="$PROJECT_DIR$/jquery属性/获取属性操作.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/02-jquery和原生对比.html" afterPath="$PROJECT_DIR$/jquery和原生js对比.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/03-jquery的选择器.html" afterPath="$PROJECT_DIR$/jquery选择器/jquery的选择器.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/04-jquery的选择器过滤.html" afterPath="$PROJECT_DIR$/jquery选择器/jquery的选择器过滤.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/05-jquery选择器的转移.html" afterPath="$PROJECT_DIR$/jquery选择器/jquery选择器的转移.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/06-jquery的标签属性操作.html" afterPath="$PROJECT_DIR$/jquery属性/jquery的标签属性操作.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/07-绑定click事件.html" afterPath="$PROJECT_DIR$/jquery事件/click事件/绑定click事件.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/08-选项卡.html" afterPath="$PROJECT_DIR$/jquery事件/click事件/选项卡.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/09-jqurey的动画.html" afterPath="$PROJECT_DIR$/jquery动画/jqurey的动画.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/10-jquery连续动画.html" afterPath="$PROJECT_DIR$/jquery动画/jquery连续动画.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/each.html" afterPath="$PROJECT_DIR$/jquery常用函数/each.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/jQuery中$符号意义" afterPath="$PROJECT_DIR$/jQuery中$符号意义" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/03_day/13-jquery幻灯片新预习资料/幻灯片/js/jquery-1.12.4.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/js函数名称冲突解决方案.png" afterPath="$PROJECT_DIR$/js函数名称冲突解决方案.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/js匿名函数.png" afterPath="$PROJECT_DIR$/js匿名函数.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/replaceWith.html" afterPath="$PROJECT_DIR$/jquery常用函数/replaceWith.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/val.html" afterPath="$PROJECT_DIR$/jquery常用函数/val.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/突出显示段落中点击的单词.html" afterPath="$PROJECT_DIR$/jquery事件/click事件/突出显示段落中点击的单词.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/01_day/鼠标悬停事件.html" afterPath="$PROJECT_DIR$/jquery事件/mouse事件/鼠标悬停事件.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/01-jquery的特殊效果.html" afterPath="$PROJECT_DIR$/jquery特殊效果/jquery的特殊效果.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/02-层级菜单案例.html" afterPath="$PROJECT_DIR$/jquery常用案例/层级菜单案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/03-获取元素的尺寸.html" afterPath="$PROJECT_DIR$/jquery属性/获取元素的尺寸.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/04-元素的绝对位置.html" afterPath="$PROJECT_DIR$/jquery属性/获取元素的绝对位置.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/05-购物车的动画.html" afterPath="$PROJECT_DIR$/jquery常用案例/购物车的动画.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/08-置顶固定菜单栏.html" afterPath="$PROJECT_DIR$/jquery常用案例/置顶固定菜单栏.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/09-jquery的循环.html" afterPath="$PROJECT_DIR$/jquery常用函数/jquery的each循环.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/images/001.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/images/001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/images/002.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/images/002.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/images/003.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/images/003.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/images/004.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/images/004.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/images/005.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/images/005.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/images/scrolltop.jpg" afterPath="$PROJECT_DIR$/jquery事件/滚动事件/windows_scrolltop.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/images/up.png" afterPath="$PROJECT_DIR$/jquery常用案例/images/up.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02_day/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/js/jquery-1.12.4.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -305,7 +216,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
