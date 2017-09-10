@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03-jquery的选择器</title>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script>  
+        $(document).ready(function() {
+            
+            // 1.ID 选择器
+            var $div = $("#div1");
+        
+            // 2.类选择器
+            var $p = $(".para");
+        
+            // 3.标签选择器
+            var $a = $("a");
+            
+            // 4.层级选择器
+            var $span = $("h1 span");
+           
+            // 5.属性选择器
+            var $li = $("li[class='li']");
+            // .css() 获取匹配元素集合中第一个元素的计算样式属性
+            // .css() -> return string
+            $li.css({
+                //数字类型可以不加单位
+                "color": "red"
+            });
+
+            // 用length 判断元素是否存在 0代表不存在
+            // 大于零 代表存在
+            var $abc = $("#best");
+            alert('#abc的length=' + $abc.length);
+            alert($('ul li').css('color'));
+
+            // 插入新的html代码
+            $('p#aa').html('<span style="color:red">---</span>');
+
+            /*
+            例如：
+                jQuery的理解和返回两个正确的值
+                .css({ "background-color": "#ffe", "border-left": "5px solid #ccc" })
+                和.css({backgroundColor: "#ffe", borderLeft: "5px solid #ccc" })
+            */
+
+            /*
+            * 当.css()用作setter时：
+            *   jQuery会修改元素的style属性。
+            *   例如:
+            *   $("#mydiv").css("color", "green")
+            *   也可以写成
+            *   $('#mydiv').css({
+            *       'color': 'green';
+            *   })
+            *   相当于document.getElementById( "mydiv" ).style.color = "green"
+            * */
+
+            /*
+            * .css()允许我们传递一个函数作为属性值：
+            * $("div.example").css("width", function(index) {
+                  return index * 50;
+              });
+            * */
+            /*以pdf结尾的*/
+            $('a[href$="pdf"]').css({"color": "red"});
+            /*以http开头的*/
+            $('a[href^="http"]').css({"font-size": "30px"});
+        });
+    </script>
+</head>
+<body>
+    <div id="div1">ID选择器</div>
+    <p class="para">类选择器</p>
+    <a href="">标签选择器</a>
+
+    <h1> <span>层级选择器</span> </h1>
+
+    <ul>
+        <li class="li">1</li>
+        <li class="li">2</li>
+        <li class="li">3</li>
+        <li>4</li>
+    </ul>
+    <p id="aa"></p>
+    <a href="http://www.baidu.com/1.pdf">xxx.pdf</a>
+</body>
+</html>

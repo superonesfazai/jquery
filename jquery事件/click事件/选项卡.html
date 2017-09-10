@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>选项卡</title>
+     <script src="../../js/jquery-1.12.4.min.js"></script>
+     <style>
+         .tap_con{
+            width: 500px;
+            height: 350px;
+            margin: 50px auto 0;
+         }
+
+         .tap_btns{
+             height: 50px;
+         }
+
+         .tap_btns input{
+            width: 100px;
+            height: 50px;
+            background-color: lightgray;
+            border: 0;
+            outline: none;  /* 按钮外框线*/
+         }
+
+         .tap_btns .active{
+             background-color: gold;
+         }
+
+         .tab_cons{
+             height: 300px;
+             background-color: gold;
+         }
+
+         .tab_cons div{
+             height: 300px;
+             line-height: 300px;
+             text-align: center;
+             display: none;     /*其它未被选中的div设置为none*/
+             font-size: 30px;
+         }
+
+         .tab_cons .current{
+             display: block;    /*当前的设置为块级元素*/
+         }
+     </style>
+    <script>
+        /*
+        * 实际就是通过值监听一个按钮来通过对类名的操作来实现对同级元素的修改
+        * */
+        $(function() {
+            // 1.监听按钮的点击,先切换按钮
+            var $btns = $(".tap_btns input");
+            var $divs = $(".tab_cons div");
+            $btns.click(function() {
+                // 1. 改变当前选中按钮的颜色, 同时取消未被选中按钮的颜色
+                var $currentBtn = $(this).addClass("active").siblings().removeClass("active");
+              
+                // 2. 根据按钮的切换,切换div
+                $divs.eq($(this).index()).addClass("current").siblings().removeClass("current");
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="tap_con">
+    <div class="tap_btns">
+        <input type="button" value="按钮一" class="active">
+        <input type="button" value="按钮二">
+        <input type="button" value="按钮三">
+    </div>
+
+    <div class="tab_cons">
+        <div class="current">按钮一对应的内容</div>
+        <div>按钮二对应的内容</div>
+        <div>按钮三对应的内容</div>
+    </div>
+</div>
+    
+    
+</body>
+</html>

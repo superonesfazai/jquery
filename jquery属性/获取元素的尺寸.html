@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03-获取元素的尺寸</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #div1{
+            width: 100px;
+            height: 100px;
+            border: 10px solid green;  
+            padding: 2px;
+            margin-left: 30px;
+            background: red;
+        }
+    </style>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function() {
+            $('#div1').click(function () {
+                var $Width = $('#div1').css("width");
+                        //  =  $('#div1').width()
+                // 1.width height 获取当前的内容
+
+                // 2.innerwidth innerheight ,= padding
+                $Width = $('#div1').innerWidth();
+
+                // 3.outerwidth outerheight, = padding + border
+                $Width = $('#div1').outerWidth();
+
+                // 4.outerwidth(true) outerheight(true), = padding + border + margin
+                $Width = $('#div1').outerWidth(true);
+                alert($Width);
+            });
+        })
+    </script>
+</head>
+<body>
+    <div id="div1"></div>
+</body>
+</html>

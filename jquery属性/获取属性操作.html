@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script>
+
+        window.onload = function () {
+            var oInput = document.getElementById("txt");
+            var oBtn = document.getElementById("btn");
+            var oAnchor = document.getElementById("anch");
+
+            //1.读取属性
+            var iValinput = oInput.value;
+            var iValBtn = oBtn.value;
+            console.log(iValinput + iValBtn);
+            //2.修改属性
+            // alert(oInput.className);
+            oInput.className = "two";
+
+            //3.第二种写法
+            // oAnchor.style.iValinput = iValBtn;//此写法无效
+            // oAnchor.style[iValinput] = iValBtn;
+            
+            oInput.style.color = "green";
+            oBtn.onclick = function() {
+                alert(oInput.style.color);
+            }
+        }
+        
+    </script>
+
+    <style>
+        #txt{
+            font-size: 20px;
+        }
+        .two{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="txt" value="fontSize" class="one">
+    <input type="button" id="btn" value="50px">
+    <a href="" id="anch">链接文字</a>
+    
+</body>
+</html>

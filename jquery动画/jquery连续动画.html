@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>09-jquery的动画</title>
+    <style>
+        div{
+            width: 100px;
+            height: 200px;
+            background-color: red;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+    </style>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function(){
+            $(".box1").animate({
+                "top":"200",
+                "left":200
+                },
+                1000,
+                "linear",
+                function () {
+                    $(".box1").animate({
+                        "top":"300",
+                        "left":500
+                        },1000,"linear",function () {
+                             $(".box1").animate({
+                                "top":"100",
+                                "left":1000
+                         },1000,"linear")
+                });
+            })
+        })
+
+    </script>
+
+</head>
+<body>
+    <div class="box1"></div>
+</body>
+</html>

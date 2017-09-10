@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>01-jquery的特殊效果</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 300px;
+            background: red;
+            /* display: none;     */
+        }
+    </style>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script>
+        //通过点击按钮 实现: 淡入淡出 隐藏显示 卷起打开
+        $(function () {
+            var $Div = $('#div1');
+
+            $('#btn').click(function () {
+//                $('#div1').fadeIn();  //淡入
+//                $('#div1').fadeOut(); //淡出
+//                $('#div1').fadeToggle(1000, 'swing', function() {
+//                    alert("效果展示完毕");
+//                });   //淡入淡出
+//
+//                $Div.hide();      //隐藏
+//                $Div.show();      //显示
+//                $Div.toggle();    //来回切换
+//
+//                $Div.slideDown();//打开
+//                $Div.slideUp();//卷起来
+                $Div.slideToggle();//卷起来
+            })
+        })
+    </script>
+</head>
+<body>
+    <!-- 1.界面搭建 -->
+    <input type="button" id="btn" value="普通按钮">
+    <div id="div1"></div>
+    <div>下面的额内容</div>
+</body>
+</html>
