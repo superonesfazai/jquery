@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>11-元素节点操作</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+    <script src="../../js/jquery-1.12.4.min.js"></script>
+    <script>
+        $(function () {
+            //1.创建节点
+            var $newDiv = $("<div>新的节点</div>");
+
+            //2.插入
+            //2.1 当前元素内部
+                //后面
+            // $(".box").append($newDiv);
+            // $newDiv.appendTo($(".box"));
+
+                //前面
+            // $(".box").prepend($newDiv);
+            // $newDiv.prependTo($(".box"));
+
+
+            //2.2元素外部
+            // $(".box").after($newDiv);
+            $newDiv.insertAfter($(".box"));
+
+            $(".box").before($newDiv);
+
+            //3.删除节点
+            $(".box1").remove();
+        })
+
+    </script>
+</head>
+<body>
+    <div class="box">
+        <div class="box1">需要删除的节点</div>
+        原先的内容
+    </div>
+</body>
+</html>

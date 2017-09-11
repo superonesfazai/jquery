@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        .talk_con{
+            width:600px;
+            height:500px;
+            border:1px solid #666;
+            margin:50px auto 0;
+            background:#f9f9f9;
+        }
+        .talk_show{
+            width:580px;
+            height:420px;
+            border:1px solid #666;
+            background:#fff;
+            margin:10px auto 0;
+            overflow:auto;
+        }
+        .talk_input{
+            width:580px;
+            margin:10px auto 0;
+        }
+        .whotalk{
+            width:80px;
+            height:30px;
+            float:left;
+            outline:none;
+        }
+        .talk_word{
+            width:420px;
+            height:26px;
+            padding:0;
+            float:left;
+            margin-left:10px;
+            outline:none;
+            text-indent:10px;
+        }        
+        .talk_sub{
+            width:56px;
+            height:30px;
+            float:left;
+            margin-left:10px;
+        }
+        .atalk{
+           margin:10px;
+        }
+        .atalk span{
+            display:inline-block;
+            background:#0181cc;
+            border-radius:10px;
+            color:#fff;
+            padding:5px 10px;
+        }
+        .btalk{
+            margin:10px;
+            text-align:right;
+        }
+        .btalk span{
+            display:inline-block;
+            background:#ef8201;
+            border-radius:10px;
+            color:#fff;
+            padding:5px 10px;
+        }
+    </style>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">      
+        $(function () {
+            // // 1.监听发送按钮
+            // $("#talksub").click(function () {
+            //     //1.1获取说话对象,输入框,对话框
+            //     var $who = $("#who").val();
+            //     var $content = $("#talkwords");
+    
+            //     var $A = $(".atalk");
+            //     var $B = $(".btalk");
+
+            //     //2.判断输入内容是否为空$content.value()
+            //     var $contentDetail = $content.val();
+            //     if($contentDetail == ""){
+            //         alert("内容不能为空");
+            //     }
+
+            //     //3.判断当前的 角色
+            //     //获取以前的内容+现在的内容
+            //     var $oldContent = $("#words").html();
+            //     var $str = "";
+            //     if($who == 0){//A
+            //        $oldContent += '<div class="atalk"><span>'+$contentDetail+'</span></div>';
+            //     }else{//B
+            //         $oldContent += '<div class="btalk"><span>'+$contentDetail+'</span></div>';
+
+            //     }
+
+            //     $("#words").html($oldContent);
+            //     $content.val("");
+
+                
+            // })
+
+            
+            //1.获取需要使用的元素
+            // var $who = $("#who").value();
+            
+            var $sendBtn = $("#talksub");//发送按钮
+            var $Div = $("#words");//展示的对话框
+
+            $sendBtn.click(function () {
+                var $who = $("#who").val();//发送人
+                console.log(isNaN($who)); //false
+                var $content = $("#talkwords").val();//输入的内容
+                var $oldContent = $Div.html();
+                var $str = "";
+                //2.判断输入的内容是否为空
+                if($content === ""){
+                    alert("输入内容不能为空");
+                }
+                //3.判断谁发的
+                if($who == 0){     //A  //注意此处不能用'===', 因为通过val获取的值不是number
+                        // 老的内容+新的内容
+                    $str = $oldContent + '<div class="atalk"><span>A说：'+$content+'</span></div>';
+                }else{      //B
+                      $str = $oldContent + '<div class="btalk"><span>B说：'+$content+'</span></div>';
+                }
+                //4.根据发送人 拼接发送的内容
+                //5.赋值给展示的对话框
+                $Div.html($str);
+
+                //6.每次输入完毕 清空输入框
+                 $("#talkwords").val("")
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="talk_con">
+
+        <!--1.对话框-->
+        <div class="talk_show" id="words">
+            <div class="atalk"><span>A说：吃饭了吗？</span></div>
+            <div class="btalk"><span>B说：还没呢，你呢？</span></div>
+        </div>
+
+        <!--2.选择人和 输入内容和发送-->
+        <div class="talk_input">
+            <select class="whotalk" id="who">
+                <option value="0">A说：</option>
+                <option value="1">B说：</option>
+            </select>
+            <input type="text" class="talk_word" id="talkwords">
+            <input type="button" value="发送" class="talk_sub" id="talksub">
+        </div>
+    </div>
+</body>
+</html>

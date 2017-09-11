@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>09-jquery的循环</title>
-    <script src="../02_day/js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery-1.12.4.min.js"></script>
     <script>
         $(function () {
             var $list = $(".list");
@@ -17,6 +17,10 @@
                 alert(index + ': ' + $(this).text());    //角标
                 alert(element);       //li标签
                 $(this).css({"color":"red"});
+
+                if($(this).index() === 2){
+                    $(this).css({'color': 'blue'});
+                }
             });
         })
     </script>

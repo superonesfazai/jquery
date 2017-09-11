@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>10-事件的委托</title>
+    <script src="../../js/jquery-1.12.4.min.js"></script>
+    <script>
+        /*
+        * 由于冒泡事件从而有了事件委托
+        * */
+        $(function () {
+            // 1.老写法
+//            var $lis = $(".list li");
+//            $lis.click(function () {
+//                $(this).css({"color":"red"});
+//            });
+
+            // 2.委托
+            $(".list").delegate("li", "click", function () {
+                $(this).css({"color":"red"});
+            });
+
+            $(".list").html($(".list").html()+"<li>新增内容</li>");
+
+            // 事件委托的优点:
+            //      1.减少绑定次数,提高效率
+            //      2.新增元素也起到事件的作用
+
+        })
+    </script>
+</head>
+<body>
+        <ul class="list">
+            <li>文字1</li>
+            <li>文字2</li>
+            <li>文字3</li>
+            <li>文字4</li>
+            <li>文字5</li>
+            <li>文字6</li>
+        </ul>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>08-冒泡事件</title>
+    <style>
+        .grandfather{
+            width: 300px;
+            height: 300px;
+            background: red;
+        }
+        .father{
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+        .son{
+            width: 100px;
+            height: 100px;
+            background: gold;
+        }
+</style>
+    <script src="../../js/jquery-1.12.4.min.js"></script>
+    <script>
+        /*
+        * 多层嵌套 注意避免冒泡事件
+        * */
+        $(function(){
+            // 可以在参数中定义一个event
+            // 来接收事件, 从而对事件进行相应操作
+            $(".son").click(function (event) {
+                alert('son');
+                // 阻止冒泡事件
+                event.stopPropagation();
+            });
+
+            $(".father").click(function () {
+                alert('father');
+            });
+
+            $(".grandfather").click(function () {
+                alert('grandfather');
+            });
+
+            //阻止默认行为
+            $("#form").submit(function (event) {
+                alert("12");
+//                event.preventDefault();
+                return false;   // 通过这句话来不提交表单
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="grandfather">
+        <div class="father">
+            <div class="son"></div>
+        </div>
+    </div>
+
+    <form action="" id="form">
+        <input type="text" name="content">
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
