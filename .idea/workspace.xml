@@ -2,43 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/轮播图思路.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/js/my_slide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/js/selfSlide.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide6.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/selfSlide9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/slide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/04_day/js/jquery-1.12.4.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/css/main.css" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/css/reset.css" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/css/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/adv01.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/adv01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/adv02.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/adv02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/banner01.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/banner01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/banner02.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/banner02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/banner03.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/banner03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/banner04.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/banner04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/banner05.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/banner05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/banner06.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/banner06.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/goods_pic.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/goods_pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/icons.png" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/logo.png" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/slide.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/slide.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/slide02.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/slide02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/slide03.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/slide03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/images/slide04.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/images/slide04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/index.html" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/data.json" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/js/data.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/js/jquery-1.12.4.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片案例实现总结.jpg" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/幻灯片案例实现总结.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day/ajax首页读取用户信息.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day/jsonp原理test/jsonp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day/re表单验证.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day/获取360搜索关键词联想数据.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery常用案例/幻灯片/js/my_slide.js" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/js/my_slide.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery常用案例/幻灯片/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="206">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -62,12 +31,60 @@
       <file leaf-file-name="my_slide.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery常用案例/幻灯片/js/my_slide.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1763">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
-                <element signature="e#1138#1170#0" expanded="false" />
+                <element signature="e#1153#1185#0" expanded="false" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_day/提示框cookie/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_day/注册表单验证/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="获取360搜索关键词联想数据.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_day/获取360搜索关键词联想数据.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jsonp.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_day/jsonp原理test/jsonp.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="re表单验证.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_day/re表单验证.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax首页读取用户信息.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05_day/ajax首页读取用户信息.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -154,8 +171,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="732" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="454" />
     <option name="y" value="49" />
     <option name="width" value="541" />
     <option name="height" value="718" />
@@ -216,20 +233,18 @@
             <path>
               <item name="jquery" type="b2602c69:ProjectViewProjectNode" />
               <item name="jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery常用案例" type="462c0819:PsiDirectoryNode" />
+              <item name="05_day" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="05_day" type="462c0819:PsiDirectoryNode" />
+              <item name="01-jsonp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jquery" type="b2602c69:ProjectViewProjectNode" />
               <item name="jquery" type="462c0819:PsiDirectoryNode" />
               <item name="jquery常用案例" type="462c0819:PsiDirectoryNode" />
-              <item name="幻灯片" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jquery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery常用案例" type="462c0819:PsiDirectoryNode" />
-              <item name="幻灯片" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,11 +269,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/05_day" />
+      <recent name="$PROJECT_DIR$/05_day/jsonp原理test" />
       <recent name="$PROJECT_DIR$/jquery常用案例" />
       <recent name="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料/幻灯片" />
       <recent name="$PROJECT_DIR$/04_day/13-jquery幻灯片新预习资料" />
-      <recent name="$PROJECT_DIR$/js对象" />
-      <recent name="$PROJECT_DIR$/jquery事件" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/jquery常用案例/幻灯片" />
@@ -297,7 +312,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="732" y="49" width="541" height="718" extended-state="0" />
+    <frame x="454" y="49" width="541" height="718" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -306,7 +321,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28465804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28465804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -334,46 +349,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03_day/02-聊天对话框.html" />
-    <entry file="file://$PROJECT_DIR$/jquery常用案例/层级菜单案例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="85" column="7" lean-forward="false" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery属性/jquery的属性操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery属性/获取属性操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery常用案例/聊天对话框.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="122" column="17" lean-forward="false" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery事件/冒泡事件/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="86" column="35" lean-forward="false" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-1.12.4.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -684,22 +659,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jquery常用案例/幻灯片/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jquery常用案例/幻灯片/js/my_slide.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1763">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
-            <element signature="e#1138#1170#0" expanded="false" />
+            <element signature="e#1153#1185#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery常用案例/幻灯片/index.html">
+    <entry file="file://$PROJECT_DIR$/05_day/提示框cookie/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="-391">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_day/注册表单验证/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_day/获取360搜索关键词联想数据.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_day/jsonp原理test/jsonp.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_day/re表单验证.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_day/ajax首页读取用户信息.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

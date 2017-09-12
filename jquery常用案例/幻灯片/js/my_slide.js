@@ -36,8 +36,10 @@ $(function () {
     * */
         //切换图片的准备工作
     $lis.not(":first").css({"left":760});
+    // 全局角标变量
     var iNowIndex = 0;
     var iPreIndex = 0;
+
     $pointsList.delegate("li","click",function () {
         //1.选中的添加 红色
         $(this).addClass("active");
