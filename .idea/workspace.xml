@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day/ajax首页读取用户信息.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day/jsonp原理test/jsonp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day/re表单验证.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_day/获取360搜索关键词联想数据.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery常用案例/幻灯片/js/my_slide.js" afterPath="$PROJECT_DIR$/jquery常用案例/幻灯片/js/my_slide.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
