@@ -16,7 +16,7 @@ $(function () {
         var iPicCount = $lis.length;
         //2.2 创建节点
         for (var index = 0; index < iPicCount; index++) {
-            var $pointli = $("<li>")
+            var $pointli = $("<li>");
 
             //默认选中第一个
             if(index == 0){
@@ -25,9 +25,4 @@ $(function () {
              //2.3添加到 小圆点列表
             $pointsList.append($pointli);
         }
-        
-
-
-
-
-})
+});
