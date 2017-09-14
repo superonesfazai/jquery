@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>仿360搜索数据</title>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <style>
+        div {
+            text-align: center;
+            margin-top: 200px;
+        }
+        p {
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        $(function () {
+            // 1.获取文本框
+            var $txt = $("#txt");
+
+            // 2.时时监听 blur keyup
+            $txt.keyup(function () {
+                $.ajax({
+                    // https://sug.so.360.cn/suggest?callback=suggest_so&encodein=utf-8&encodeout=utf-8&format=json&fields=word&word=c
+                    url:"https://sug.so.360.cn/suggest",
+                    type:"get",
+                    dataType:"jsonp",
+                    data:{
+                        word:$txt.val()   //给服务器穿传的识别参数
+                    }
+                })
+                .done(function (callData) {
+                    console.log(callData);
+                    var alisData = callData.s;
+                    var tmp_array = [];
+                    for(var index = 0; index < alisData.length; index++){
+                        var item = alisData[index];
+                        var $li = '<li>' + item + '</li>';
+//                        console.log($li);
+                        tmp_array.push($li);
+//                        js下array没有append
+                    }
+                    $('#list').html(tmp_array)
+                })
+                .error(function () {
+                    alert("请求失败");
+                })
+            });
+        })
+    </script>
+</head>
+<body>
+    <div>
+        <p>阿发搜索</p>
+        <input type="text" id="txt">
+        <ul id="list">
+
+        </ul>
+    </div>
+</body>
+</html>

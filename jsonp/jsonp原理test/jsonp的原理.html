@@ -7,6 +7,11 @@
     <title>01-jsonp的原理</title>
     <script src="js/jquery-1.12.4.min.js"></script>
     <script>
+        /*
+         ajax只能请求同一域下的数据和资源, 有时候需要跨域请求数据, 就需要用到jsonp技术
+         jsonp可以跨域请求数据,它的原理主要是利用script标签可以跨域链接资源的特性
+         jsonp和ajax原理完全不一样, 不过jquery将它们分装成同一个函数了
+         */
         $(function () {
             $.ajax({
                 url:"http://localhost:8888/js/jsonp.js",
@@ -14,13 +19,12 @@
                 dataType:"jsonp",
                 jsonpCallback:"fnMyCallBack"
             })
-            .done(function (dat) {
+                //等于json版的success
+            // .done(function (dat) {
                 alert(dat.name);
-            })
-             .error(function () {
+            }).error(function () {
                 alert("失败");
             })
-
         })
     </script>
 </head>

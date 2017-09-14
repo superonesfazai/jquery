@@ -25,7 +25,7 @@ Add to the virtualDirectories hash if you have resources that are not children o
 var http = require("http"),
     url = require("url"),
     path = require("path"),
-    fs = require("fs")
+    fs = require("fs"),
     port = process.argv[2] || 8888;
 
 var mimeTypes = {

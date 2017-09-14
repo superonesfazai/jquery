@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>03-cookie的使用</title>
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/jquery.cookie.js"></script>
+    <title>cookie的使用</title>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <script>
-
-
         $(function(){
             var sVal = $.cookie('sIsread');
        
-            if(sVal == undefined)
-            {
+            if(sVal == undefined){
                 $('.pop_main').show();
             }
 
             $('.confirm').click(function(){
                  $('.pop_main').hide();
-                 $.cookie('sIsread','ok',{expires:7,path:'/'});
+                 $.cookie(
+                     'sIsread',
+                     'ok',
+                     {
+                         expires: 7,
+                         path: '/'
+                     }
+                 ); //expires 到期
             })   
-          
-
         })
     </script>
 </head>
 <body>
-     <h1>页面的内容</h1>
+    <h1>页面的内容</h1>
     <div class="pop_main">
         <div class="pop_con">
             <div class="pop_title">
@@ -45,6 +47,5 @@
         </div>
         <div class="mask"></div>
     </div>
-    
 </body>
 </html>
