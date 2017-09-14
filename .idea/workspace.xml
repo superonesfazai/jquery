@@ -1,178 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsonp/json/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/js/jquery.cookie.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/360.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/提示框cookie/js/jquery-1.12.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/js/jquery-1.12.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/images/timg_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/images/walking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/答案/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/答案/images/timg_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/答案/images/walking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/答案/练习001.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/答案/练习002.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/答案/练习003.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/练习001.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/练习002.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/练习002效果示例.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/练习003.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/05_day/练习/练习003效果示例.gif" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/01-jsonp/data.js" afterPath="$PROJECT_DIR$/jsonp/data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/01-jsonp/index.html" afterPath="$PROJECT_DIR$/jsonp/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/01-jsonp/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/cookie操作/提示框cookie/js/jquery-1.12.4.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/01-jsonp/server.js" afterPath="$PROJECT_DIR$/cookie操作/提示框cookie/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/ajax首页读取用户信息.png" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/ajax首页读取用户信息.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/js/jquery-1.12.4.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/01-jsonp的原理.html" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/jsonp的原理.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/02-仿360搜索数据.html" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/仿360搜索数据.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/03-cookie.html" afterPath="$PROJECT_DIR$/cookie操作/cookie.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/css/main.css" afterPath="$PROJECT_DIR$/cookie操作/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/js/jquery-1.12.4.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/cookie操作/提示框cookie/js/jquery.cookie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/js/jsonp.js" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/js/jsonp.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/jsonp.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/jsonp原理.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/server.js" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/正则表达式.html" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/正则表达式.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/css/main.css" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/css/reset.css" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/css/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/adv01.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/adv01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/adv02.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/adv02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/banner01.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/banner01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/banner02.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/banner02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/banner03.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/banner03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/banner04.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/banner04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/banner05.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/banner05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/banner06.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/banner06.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/down.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/down.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/fruit.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/fruit.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods001.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods002.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods002.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods003.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods003.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods004.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods004.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods005.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods005.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods006.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods006.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods007.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods007.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods008.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods008.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods009.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods009.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods010.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods010.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods011.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods011.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods012.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods012.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods013.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods013.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods014.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods014.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods015.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods016.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods016.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods017.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods017.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods018.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods018.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods019.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods019.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods020.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods020.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods/goods021.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods/goods021.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods02.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/goods_detail.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/goods_detail.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/icons.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/icons02.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/icons02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/interval_line.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/interval_line.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/left_bg.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/left_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/login_banner.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/login_banner.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/logo.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/logo02.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/logo02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/pay_icons.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/pay_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/register_banner.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/register_banner.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/shop_cart.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/shop_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/slide.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/slide.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/slide02.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/slide02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/slide03.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/slide03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/images/slide04.jpg" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/images/slide04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/js/jquery-1.12.4.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/js/register.js" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/js/register.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/jsonp原理test/注册表单验证/register.html" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/注册表单验证/register.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/re表单验证.png" afterPath="$PROJECT_DIR$/正则re/re表单验证.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/css/main.css" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/css/reset.css" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/css/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/data/data.json" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/data/data.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/adv01.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/adv01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/adv02.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/adv02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/banner01.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/banner01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/banner02.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/banner02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/banner03.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/banner03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/banner04.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/banner04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/banner05.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/banner05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/banner06.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/banner06.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/goods_pic.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/goods_pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/icons.png" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/logo.png" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/slide.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/slide.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/slide02.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/slide02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/slide03.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/slide03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/images/slide04.jpg" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/images/slide04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/index.html" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/js/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/正则re/注册表单验证/js/jquery-1.12.4.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/js/slide.js" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/js/slide.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/web/server.js" afterPath="$PROJECT_DIR$/jsonp/天天生鲜ajax获取用户信息/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/提示框cookie/css/main.css" afterPath="$PROJECT_DIR$/cookie操作/提示框cookie/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/提示框cookie/index.html" afterPath="$PROJECT_DIR$/cookie操作/提示框cookie/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/提示框cookie/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/js/jquery.cookie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/提示框cookie/server.js" afterPath="$PROJECT_DIR$/jsonp/server.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/正则.html" afterPath="$PROJECT_DIR$/正则re/正则.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/css/main.css" afterPath="$PROJECT_DIR$/正则re/注册表单验证/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/css/reset.css" afterPath="$PROJECT_DIR$/正则re/注册表单验证/css/reset.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/adv01.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/adv01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/adv02.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/adv02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/banner01.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/banner01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/banner02.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/banner02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/banner03.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/banner03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/banner04.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/banner04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/banner05.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/banner05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/banner06.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/banner06.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/down.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/down.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/fruit.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/fruit.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods001.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods002.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods002.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods003.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods003.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods004.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods004.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods005.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods005.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods006.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods006.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods007.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods007.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods008.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods008.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods009.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods009.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods010.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods010.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods011.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods011.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods012.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods012.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods013.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods013.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods014.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods014.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods015.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods016.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods016.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods017.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods017.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods018.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods018.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods019.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods019.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods020.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods020.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods/goods021.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods/goods021.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods02.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/goods_detail.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/goods_detail.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/icons.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/icons02.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/icons02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/interval_line.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/interval_line.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/left_bg.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/left_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/login_banner.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/login_banner.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/logo.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/logo02.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/logo02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/pay_icons.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/pay_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/register_banner.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/register_banner.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/shop_cart.png" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/shop_cart.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/slide.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/slide.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/slide02.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/slide02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/slide03.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/slide03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/images/slide04.jpg" afterPath="$PROJECT_DIR$/正则re/注册表单验证/images/slide04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/js/register2.js" afterPath="$PROJECT_DIR$/正则re/注册表单验证/js/register2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/注册表单验证/register.html" afterPath="$PROJECT_DIR$/正则re/注册表单验证/register.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/05_day/获取360搜索关键词联想数据.png" afterPath="$PROJECT_DIR$/jsonp/jsonp原理test/获取360搜索关键词联想数据.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/正则re/注册表单验证/js/register2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-796">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -347,7 +176,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="488" />
     <option name="y" value="49" />
     <option name="width" value="541" />
@@ -495,7 +324,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="488" y="49" width="541" height="718" extended-state="0" />
+    <frame x="488" y="49" width="541" height="718" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -884,7 +713,7 @@
     <entry file="file://$PROJECT_DIR$/正则re/注册表单验证/js/register2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-796">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>
