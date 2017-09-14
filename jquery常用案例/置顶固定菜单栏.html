@@ -83,15 +83,15 @@
                 }else{
                     $(".uparrow").fadeOut();
                 }
-
-                //1.4点击按钮回到 文档顶部
-                $(".uparrow").one('click', function () {
-                    // 滚动到顶部的规范写法,兼容写法
-                    $("html,body").animate({
-                        "scrollTop": 0
-                    });
-                })
             });
+
+            //1.4点击按钮回到 文档顶部
+            $(".uparrow").one('click', function () {
+                // 滚动到顶部的规范写法,兼容写法
+                $("html,body").animate({
+                    "scrollTop": 0
+                });
+            })
         })
     </script>
 </head>
