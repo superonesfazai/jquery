@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/bootstrap容器/Bootstrap容器.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/bootstrap栅格系统/Bootstrap的栅格系统.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/bootstrap栅格系统/栅格参数.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/bootstrap栅格系统/栅格系统.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/bootstrap栅格系统/栅格系统的偏移和隐藏.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/传统流体布局和响应式布局/流体布局和响应式布局.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/全局 CSS 样式 · Bootstrap v3 中文文档.webarchive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/组件 · Bootstrap v3 中文文档.webarchive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/bootstrap的基本操作.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/03-bootstrap的基本操作.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/images/timg_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/images/walking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/答案/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/答案/images/timg_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/答案/images/walking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/答案/练习001.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/答案/练习002.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/答案/练习003.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/练习001.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/练习002.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/练习002效果示例.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/练习003.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap/练习/练习003效果示例.gif" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/01-流体布局.html" afterPath="$PROJECT_DIR$/bootstrap/传统流体布局和响应式布局/流体布局.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/02-响应式布局.html" afterPath="$PROJECT_DIR$/bootstrap/传统流体布局和响应式布局/响应式布局.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/04-流体容器.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap容器/流体容器.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/05-响应式容器.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap容器/响应式容器.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/06-栅格系统.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap栅格系统/栅格系统.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/07-栅格响应式布局.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap栅格系统/栅格响应式布局.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/08-栅格的偏移和隐藏.html" afterPath="$PROJECT_DIR$/bootstrap/bootstrap栅格系统/栅格的偏移和隐藏.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/09-天天水果节.html" afterPath="$PROJECT_DIR$/bootstrap/案例/天天水果节.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/images/active01.jpg" afterPath="$PROJECT_DIR$/bootstrap/案例/images/active01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/images/active02.jpg" afterPath="$PROJECT_DIR$/bootstrap/案例/images/active02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/images/active03.jpg" afterPath="$PROJECT_DIR$/bootstrap/案例/images/active03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/images/active04.jpg" afterPath="$PROJECT_DIR$/bootstrap/案例/images/active04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/images/banner_bg.jpg" afterPath="$PROJECT_DIR$/bootstrap/案例/images/banner_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/images/banner_title.png" afterPath="$PROJECT_DIR$/bootstrap/案例/images/banner_title.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/images/basket.png" afterPath="$PROJECT_DIR$/bootstrap/案例/images/basket.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/images/goods.jpg" afterPath="$PROJECT_DIR$/bootstrap/案例/images/goods.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/images/logo.png" afterPath="$PROJECT_DIR$/bootstrap/案例/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery事件/mouse事件/鼠标悬停事件.html" afterPath="$PROJECT_DIR$/jquery事件/mouse事件/鼠标悬停事件.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery事件/mouse事件/鼠标移动和点击事件.html" afterPath="$PROJECT_DIR$/jquery事件/mouse事件/鼠标移动和点击事件.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery事件/表单事件/提交表单事件.html" afterPath="$PROJECT_DIR$/jquery事件/表单事件/提交表单事件.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery动画/jquery连续动画.html" afterPath="$PROJECT_DIR$/jquery动画/jquery连续动画.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery属性/jquery的属性操作.html" afterPath="$PROJECT_DIR$/jquery属性/jquery的属性操作.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery属性/jquery的标签属性操作.html" afterPath="$PROJECT_DIR$/jquery属性/jquery的标签属性操作.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery属性/获取元素的尺寸.html" afterPath="$PROJECT_DIR$/jquery属性/获取元素的尺寸.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery属性/获取元素的绝对位置.html" afterPath="$PROJECT_DIR$/jquery属性/获取元素的绝对位置.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery属性/获取属性操作.html" afterPath="$PROJECT_DIR$/jquery属性/获取属性操作.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery常用函数/jquery的each循环.html" afterPath="$PROJECT_DIR$/jquery常用函数/jquery的each循环.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery常用函数/val.html" afterPath="$PROJECT_DIR$/jquery常用函数/val.html" />
-    </list>
+    <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,16 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="置顶固定菜单栏.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jquery常用案例/置顶固定菜单栏.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2432">
-              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="聊天对话框.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery常用案例/聊天对话框.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,9 +34,22 @@
       <file leaf-file-name="jquery的特殊效果.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery特殊效果/jquery的特殊效果.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="30">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery参考手册-选择器" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jquery参考手册-选择器">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -143,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/jquery和原生js对比.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -156,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js匿名函数.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="js匿名函数.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js匿名函数.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -384,7 +333,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -418,14 +367,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap的基本操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/案例/images/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -704,7 +645,7 @@
     <entry file="file://$PROJECT_DIR$/jquery常用案例/置顶固定菜单栏.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2432">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -721,14 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-932">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery特殊效果/jquery的特殊效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -764,7 +697,7 @@
     <entry file="file://$PROJECT_DIR$/jquery和原生js对比.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -777,6 +710,25 @@
     <entry file="file://$PROJECT_DIR$/js匿名函数.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery特殊效果/jquery的特殊效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery参考手册-选择器">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
       </provider>
     </entry>
   </component>
