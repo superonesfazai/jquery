@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>06-栅格系统</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
     <style>
        div[class *= "col-"]{
             height: 50px;
@@ -18,7 +17,9 @@
     </style>
 </head>
 <body>
+    <!--栅格系统是Bootstrap中的核心，正是因为栅格系统的存在，Bootstrap才能有着如此强大的响应式布局方案-->
     <div class="container">
+        <!--在数据行（.row)中可以添加列（column），但列数之和不能超过平分的总列数（在超过时，多余部分会换行显示），默认12-->
         <div class="row">
             <div class="col-lg-3">col-lg-3</div>
             <div class="col-lg-3">col-lg-3</div>
@@ -65,8 +66,6 @@
                 <div class="col-xs-3">col-xs-3</div>
                 <div class="col-xs-3">col-xs-3</div>
         </div>
-
     </div>
-    
 </body>
 </html>

@@ -14,16 +14,24 @@
            /* //1.第一种写法  百分比(不包含边框)*/
             /* /width: 25%; */
 
-            /* 2.第二种写法, 计算cal() */
+            /* 2.第二种写法, 计算cal() 边框计算 注意坑：减号左右必须有空格*/
             /* width: calc(25% - 4px); */
 
+           /*流体布局当不写width时,即表示与父元素100%*/
             /* 3.box-sizing: */
             width: 25%;
             height: 50px;
             background:red;
             float: left;
             border: 2px solid green;
-            box-sizing: border-box;
+           /*以边框为基准*/
+            box-sizing: border-box; /*用于更改用于计算元素宽度和高度的默认CSS框模型*/
+           /*以内容为基准*/
+           /*box-sizing: content-box;*/
+           /*border-box*/
+           /*
+           该width和height属性包括内容，填充和边界，而不是利润率
+           */
         }
     </style>
 </head>

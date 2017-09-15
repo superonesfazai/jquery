@@ -10,7 +10,7 @@
             margin: 0;
         }
        
-       .box div{
+        .box div{
             width: 25%;
             height: 50px;
             background:red;
@@ -19,22 +19,25 @@
             box-sizing: border-box;
         }
 
+        /* 系统通过监听 window的变化 */
         @media(max-width:1200px) {
-            .box div{
+            .box div {
             width: 25%;
             border: 2px solid green;
             box-sizing: border-box;
             }
         }
+
         @media(max-width:900px) {
-            .box div{
+            .box div {
             width: 50%;
             border: 2px solid green;
             box-sizing: border-box;
             }
         }
+
         @media(max-width:600px) {
-            .box div{
+            .box div {
             width: 100%;
             border: 2px solid green;
             box-sizing: border-box;
@@ -43,11 +46,11 @@
     </style>
 </head>
 <body>
-  <div class="box">
+    <div class="box">
         <div></div>
         <div></div>
         <div></div>
-        <div></div>     
-  </div>        
+        <div></div>
+    </div>
 </body>
 </html>
