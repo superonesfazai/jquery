@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery事件/滚动事件/滚动事件.html" afterPath="$PROJECT_DIR$/jquery事件/滚动事件/滚动事件.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery属性/jquery的属性操作.html" afterPath="$PROJECT_DIR$/jquery属性/jquery的属性操作.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery属性/元素节点操作/元素节点操作.html" afterPath="$PROJECT_DIR$/jquery属性/元素节点操作/元素节点操作.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery选择器/jquery的选择器过滤.html" afterPath="$PROJECT_DIR$/jquery选择器/jquery的选择器过滤.html" />
-    </list>
+    <list default="true" id="7bf34c6b-ab86-48f3-83ad-6dc9cd6561d8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +10,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="提交表单事件.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jquery事件/表单事件/提交表单事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,6 +165,22 @@
               <item name="jquery" type="b2602c69:ProjectViewProjectNode" />
               <item name="jquery" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery事件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery事件" type="462c0819:PsiDirectoryNode" />
+              <item name="表单事件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jquery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jquery" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,7 +247,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -337,14 +359,6 @@
     <entry file="file://$PROJECT_DIR$/jquery事件/滚动事件/windows_scrolltop.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery事件/表单事件/提交表单事件.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery常用案例/置顶固定菜单栏.html">
@@ -622,6 +636,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery事件/表单事件/提交表单事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding />
         </state>
       </provider>
